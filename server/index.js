@@ -7,7 +7,7 @@ const User= require('./dataSchema')
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://localhost:27017/reactData', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/reactData', { useNewUrlParser: true })
 
 app.post('/insert', async(req, res) => {
     // const ThumbnailImage = req.body.thumbnailImage

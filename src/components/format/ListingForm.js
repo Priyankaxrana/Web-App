@@ -21,11 +21,11 @@ function ListingForm() {
     })
 
             // Clear the form fields after submission
-            // // setImage('');
-            // setTitle('');
-            // setAddress('');
-            // setDescription('');
-            // setPrice('');
+            // setImage('');
+            setTitle('');
+            setAddress('');
+            setDescription('');
+            setPrice('');
 }
 
   // Event handler for handling image file input
